@@ -1,0 +1,32 @@
+.card-title{
+  border-bottom: 2px solid #8472ca;
+  width:65%;
+  border-top: 2px solid #8472ca;
+}
+.main-card span{
+  border-bottom: 2px solid #8472ca;
+  border-top: 2px solid #8472ca;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+table{
+  margin-left: 25px;
+}
+svg{
+  height: 35px;
+  width: 35px;
+  padding-right: 10px;
+}
+.next-project{
+  border-top: 3px solid #8472ca;
+}
+.projet-title{
+  color:#000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px 0 30px 10px;
+}
+table{
+  line-height: 1.2;
+}

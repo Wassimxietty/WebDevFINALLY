@@ -1,0 +1,21 @@
+.main-card{
+  max-width:1000px;
+  height: 80%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.main-card span{
+  width:30%;
+}
+table{
+  margin-top: 30px;
+  height: 600px;
+}
+.side-lane a, .side-lane a:active, .side-lane a:visited {
+  color:black;
+  line-height: 1.4;
+}
+.col-lg-4 a:hover{
+  font-weight:600;
+  border-bottom: 2px solid #8472ca;
+}

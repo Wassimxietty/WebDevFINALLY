@@ -1,0 +1,323 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+title{
+  color:#000;
+}
+body {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+h1{
+  display:inline-block;
+}
+a{
+  text-decoration: none;
+}
+.main-bg{
+  position: relative;
+}
+.overlay-text{
+  position: absolute;
+  max-width: 700px;
+  height: 250px;
+  padding: 40px 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  border:#eeeded 2px solid;
+  box-shadow: -9px -9px 0 0 #000;
+  top: 70px;
+  left: 15px;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 400;
+}
+.overlay-text span{
+  display: block;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 5px 0 30px;
+  font-size: larger;
+}
+.container-fluid{
+  position:relative;
+}
+.navbar{
+  display: block;
+  text-transform: uppercase;
+  font-weight:350;
+  margin: 5px 0 30px;
+  font-size:small;
+}
+.navbar-brand{
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+.navbar-nav{
+  margin-top: 10px;
+  position: absolute;
+  right: 0;
+  margin-right: 5px;
+}
+#arrow{
+  display:block;
+  width: 30px;
+  margin: 25px auto;
+}
+.dahleb-img{
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin:auto;
+}
+.sponsor p{
+  max-width: 1350px;
+  font-family: sans-serif;
+  color: #000;
+  font-size: 39px;
+  line-height: 1.3;
+  font-weight: 600;
+}
+.sponsor p a{
+  color:#5e6dfc;
+  text-decoration: none;
+}
+.presentation-img{
+  position: relative;
+  width: 70%;
+  margin: 100px 50px;
+}
+.presentation-text{
+  margin: 100px 100px; 
+  font-family: sans-serif;
+  color: #000;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.presentation-text span a{
+  color:#5e6dfc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px 0 30px 10px;
+  font-size: larger;
+}
+.team-img{
+  width:110%;
+  margin: 100px 0px;
+}
+.labo-info{
+  margin: 100px 100px; 
+  font-family:sans-serif;
+  color: #000;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.labo-info span a{
+  color:#F59206;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px 0 30px;
+  font-size: larger;
+}
+.projet{
+  margin: 100px 100px; 
+  font-family: sans-serif;
+  color: #000;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+.projet-img{
+  width:110%;
+  margin: 100px 0px;
+}
+.projet span a{
+  color:#5e6dfc;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px 0 30px;
+  font-size: larger;
+}
+
+footer{
+  background: #382C6A;
+  width: 100%;
+  margin-top: 30px;
+  z-index: 3;
+}
+.logo{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 5px 5px 0 0;
+}
+svg .logo-img{
+  margin-left: 100px;
+}
+.col-lg-4 a{
+  color: #fff;
+  margin-left: 10px;
+}
+.footer-title{
+  color: #8472ca;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+.footer-link{
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    position: static;
+}
+.logo, .navigation, .menu{
+  margin-top: 50px;
+}
+.footer-link a{
+  color: #fff;
+}
+.legal-block {
+  color: #fff;
+  border-top: 2px solid #8472ca;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  width:65%;
+  margin: 100px auto 0;
+  font-size: 15px;
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover{
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.nav-item:hover{
+  background-color: #838ef3;
+}
+.nav-item{
+  margin: 5px 0 30px;
+  font-size: larger;
+  font-weight: bolder;
+  opacity: 1;
+  color:#000;
+}
+.nav-link{
+  color:#000;
+}
+.col-lg-4 a:hover{
+  font-weight:600;
+  border-bottom: 2px solid #8472ca;
+}
+.menu p{
+  color: white;
+}
+
+@media screen and (max-width: 991px) and (min-width: 796px){
+   .presentation-text, .projet, .labo-info{
+    font-size: 20px;
+  }
+  .presentation-img, .projet-img, .team-img{
+    display: block;
+    width: 400px;
+    height: 360px;
+    padding-bottom: 20px;
+    }
+    .presentation-text{
+      margin-right:50px;
+      margin-left: 50px;
+    }
+    .presentation-img, .presentation-text{
+      margin-bottom: 50px;
+    }
+    .team-img{
+      margin-right: 40px;
+    }
+    .labo-info{
+      margin:100px 0px 100px 40px;
+    }
+    .projet{
+      margin-right:50px;
+      margin-left: 50px;
+    }
+    .projet, .projet-img{
+      margin-bottom: 50px;
+    }
+    .overlay-text{
+      max-width: 480px;
+      overflow: hidden;
+      height: 280px;
+    }
+}
+@media screen and (max-width:796px) {
+  .presentation-text, .projet, .labo-info{
+    font-size: 20px;
+  }
+  .presentation-img, .projet-img, .team-img{
+    display: block;
+    width: 400px;
+    height: 360px;
+    margin:auto;
+    padding-bottom: 20px;
+    }
+    .overlay-text{
+      max-width: 350px;
+      height: 290px;
+      top: 60px;
+      left: 20px;
+      font-size: 18px;
+    }
+}
+@media screen and (max-width:768px) {
+  .navbar-nav{
+    position: relative;
+  }
+  .nav-item{
+    text-align: center;
+    width: 99%;
+  }
+  .dropdown-content{
+    width: 99%;
+  }
+  .navigation, .menu{
+    padding-left: 45px;
+  }
+  
+}

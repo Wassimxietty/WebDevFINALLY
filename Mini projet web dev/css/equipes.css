@@ -1,0 +1,33 @@
+.main-card span{
+  width:70%;
+}
+hr{
+  color:#8472ca;
+}
+p, li{
+  font-size: 16px;
+}
+.main-card{
+  margin-bottom: 15px;
+  max-width: 750px;
+}
+.sticky-parent{
+  border:#5e6dfc 1px solid;
+  height: 3000px;;
+}
+section{
+  position:fixed;
+  right: 25px;
+  top: 135px;
+  z-index: 1;
+}
+table{
+  height: 100px;
+  position: sticky;
+  top:0;
+}
+.mot{
+  color:#5e6dfc;
+  text-decoration: none;
+  font-weight: bold;
+}
